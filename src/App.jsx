@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route, Link, BrowserRouter} from "react-router-dom";
+import {Routes, Route, Link, BrowserRouter, useNavigate} from "react-router-dom";
 import Homepage from "./Homepage"
 import Login from './Login';
 import Signup from './Signup';
@@ -9,6 +9,7 @@ const App = () => {
   return (
     <>
     <p>huhsdkf</p>
+    <Login/>
       {/*<BrowserRouter>
         <Routes>
           <Route path='/' element={<Homepage/>} />
