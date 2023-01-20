@@ -8,16 +8,15 @@ import Service from './Service';
 const App = () => {
   return (
     <>
-    <p>huhsdkf</p>
-    <Login/>
-      {/*<BrowserRouter>
+
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Homepage/>} />
           <Route path='/login' element={<Login/>} />
           <Route path='/signup' element={<Signup/>} />
           <Route path='/service' element={<Service/>} />
         </Routes>
-      </BrowserRouter>*/}
+      </BrowserRouter>
     </>
   )
 }
