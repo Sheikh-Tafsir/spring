@@ -8,7 +8,7 @@ import Service from './Service';
 const App = () => {
   return (
     <>
-
+      <Homepage/>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Homepage/>} />
