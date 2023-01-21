@@ -38,7 +38,7 @@ const Login = () => {
                 setLoginStatus("logging in");
                 localStorage.setItem("localStorageUsername",username);
                 localStorage.setItem("localStorageLoggedState",1);
-                window.open("/service", "_top");
+                window.open("/#/service", "_top");
             }
         });
         //alert("succc");
@@ -60,7 +60,7 @@ const Login = () => {
         setProfile(res.profileObj);
         localStorage.setItem("localStorageLoggedState",1);
         localStorage.setItem("localStorageUsername",res.profileObj.name);
-        window.location.href = "/service";
+        window.location.href = "/#/service";
 
     };
 

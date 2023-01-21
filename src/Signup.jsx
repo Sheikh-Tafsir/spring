@@ -30,7 +30,7 @@ const Signup = () => {
                     setRegStatus("user data saved");
                     localStorage.setItem("localStorageUsername",usernamereg);
                     localStorage.setItem("localStorageLoggedState",1);
-                    window.location.href = "service";
+                    window.location.href = "/service";
                 }
             });
 
